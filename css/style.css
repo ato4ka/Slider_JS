@@ -43,6 +43,17 @@ body * {
     color: #E3B873;
     max-width: 250px;
     margin-top: 40px;
+    position: relative;
+}
+
+.projects-title_one::after {
+    content: "";
+    background:  #E3B873;
+    width: 92px;
+    height: 1px;
+    position: absolute;
+    top: 80%;
+    left: 65%;
 }
 
 .projects__text {
@@ -101,5 +112,6 @@ body * {
 }
 .image {
     background-image: url(../img/image2.1.jpg);
-
+    height: 679px;
+    width: 482px;
 }

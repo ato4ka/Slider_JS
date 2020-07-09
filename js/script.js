@@ -18,7 +18,7 @@ const img = document.querySelector('.image')
 
 const setEntity = (index) => {
     text.innerText = entities[index].text
-    img.style.backgroundImage = `url(${entities[index].img})`
+    img.style.backgroundImage = `url("${entities[index].img}")`;
 }
 
 const next = document.querySelector('.next')
