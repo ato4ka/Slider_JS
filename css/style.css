@@ -2,7 +2,7 @@ body {
     margin: 0;
     font-family: 'Nunito Sans', sans-serif;
     font-family: 'Yeseva One', cursive;
-    max-width: 1440px;
+    min-width: 1440px;
     margin: 0 auto;
 }
 
@@ -11,7 +11,7 @@ body * {
 }
 
 .container {
-    max-width: 1300px;
+    min-width: 1300px;
     margin: 0 auto;
 }
 
@@ -76,6 +76,11 @@ body * {
     max-width: 250px;
     margin-top: 40px;
 }
+.projects-nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
 
 .projects-nav__item {
     list-style: none;
@@ -110,8 +115,15 @@ body * {
     cursor: pointer;
     width: 50%;
 }
+
 .image {
     background-image: url(../img/image2.1.jpg);
-    height: 679px;
-    width: 482px;
+    height: 482px;
+    background-size: cover;
+    margin-top: 52px;
+    margin-left: 50px;
+}
+
+.projects-photo {
+    width: 55%;
 }
