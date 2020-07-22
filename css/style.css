@@ -97,7 +97,7 @@ body * {
     text-decoration: none;
 }
 
-.projects-nav__a:hover {
+.projects-nav__ap {
     color: #E3B873;
     text-decoration: underline;
 }
